@@ -1,6 +1,6 @@
 # Use the official Playwright image which has all browser dependencies pre-installed
 # This is the EASIEST and most reliable solution!
-FROM mcr.microsoft.com/playwright:v1.40.0-jammy
+FROM mcr.microsoft.com/playwright:v1.56.1-jammy
 
 # Install Node.js (Playwright image is based on Ubuntu)
 RUN apt-get update && apt-get install -y \
