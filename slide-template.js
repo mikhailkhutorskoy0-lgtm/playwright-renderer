@@ -82,12 +82,12 @@ function generateSlideHTML(slideData, duration) {
     }
 
     .slide {
-      width: 1600px;
-      height: 900px;
+      width: 1920px;
+      height: 1080px;
       display: flex;
       flex-direction: row;
       gap: 80px;
-      padding: 60px;
+      padding: 80px;
     }
 
     /* Left side: Text content */
@@ -222,3 +222,4 @@ function generateSlideHTML(slideData, duration) {
 }
 
 module.exports = { generateSlideHTML };
+
