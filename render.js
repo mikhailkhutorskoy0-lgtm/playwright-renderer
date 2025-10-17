@@ -33,6 +33,8 @@ async function renderSlideToVideo(html, duration, outputPath) {
     // Step 3: Open a new page
     const page = await context.newPage();
 
+    await page.setViewportSize({ width: 1920, height: 1080 });
+    
     // Step 4: Load the HTML content
     await page.setContent(html, {
       waitUntil: 'networkidle' // Wait for everything to load
